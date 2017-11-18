@@ -4,8 +4,6 @@ Created using eclipse IDE, Download into workspaces.
 
 https://gitlab.com/futureCodersSE/KnowledgeBase/issues/9
 
-# Instructions
-
 # User story:
 As a front end developer, I need to be able to send some survey data to a java class, in JSON format, and for it to be analysed and results sent back, also in JSON format.
 
