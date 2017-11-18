@@ -1,16 +1,13 @@
-
-https://gitlab.com/futureCodersSE/KnowledgeBase/issues/9
-
 # JSONSurveyData
 Java class and Junit test for accepting and handling JSON data from a survey
 Created using eclipse IDE, Download into workspaces. 
 
-Process survey data
+# Instructions
 
-User story
+User story:
 As a front end developer, I need to be able to send some survey data to a java class, in JSON format, and for it to be analysed and results sent back, also in JSON format.
 
-Requirements
+Requirements:
 Format of input data:
 { "surveyQuestion" :[ { "question":"How valuable was today in terms of your learning?", "responses":[ { "answer1":"false", "answer2":"false", "answer3":"false", "answer4":"false", "answer5":"false" }, { "answer1":"false", "answer2":"false", "answer3":"false", "answer4":"false", "answer5":"false" }, { "answer1":"false", "answer2":"false", "answer3":"false", "answer4":"false", "answer5":"false" } ] }, { "question":"Which of these are you most likely to want to continue to learn?", "responses":[ { "answer1":"false", "answer2":"false", "answer3":"false", "answer4":"false", "answer5":"false" }, { "answer1":"false", "answer2":"false", "answer3":"false", "answer4":"false", "answer5":"false" }, { "answer1":"false", "answer2":"false", "answer3":"false", "answer4":"false", "answer5":"false" } ] } ] }
 Output format: { "analysis" :[ { "question":"How valuable was today in terms of your learning?", "summary": { "answer1":"0%", "answer2":"0%", "answer3":"0%", "answer4":"0%", "answer5":"0%" } }, { "question":"Which of these are you most likely to want to continue to learn?", "summary": { "answer1":"0%", "answer2":"0%", "answer3":"0%", "answer4":"0%", "answer5":"0%" } } ] }
