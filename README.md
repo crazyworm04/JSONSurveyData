@@ -1,6 +1,6 @@
 # JSONSurveyData #
 Java class and Junit test for accepting and handling JSON data from a survey
-Created using eclipse IDE, Download into workspaces.
+Created using eclipse IDE, Download into workspaces. Includes four external JAR FILES for accessing JSON Java libraries (configure to build path of project). 
 
 https://gitlab.com/futureCodersSE/KnowledgeBase/issues/9
 
